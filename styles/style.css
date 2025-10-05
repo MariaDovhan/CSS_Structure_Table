@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+header, footer {
+    background-color: #130361;
+    color: #f0eada;
+    font-family: Cambria, Georgia, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-block {
+    display: inline-block;
+    text-align: end;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.logo {
+    color: #f0eada;
+    max-width: 80px;
+    height: fit-content;
+}
+
+.logo-text {
+    display: inline;
+    float: right;
+    color: #f0eada;
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-bar {
+    float: right;
+}
+
+.nav-link {
+    display: inline-block;
+    color: #f0eada;
+    text-align: right;
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 150px 10px 10px;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.table-layout {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 20px 0;
+    background: white;
+}
+
+.table-layout td {
+    background-color: #f0eada;
+    vertical-align: top;
+    padding: 10px;
+}
+
+section, aside {
+    background-color: #f0eada;
+    text-align: left;
+    padding: 15px;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.section-picture {
+    width: 100%;
+    height: fit-content;
+}
+
+.section-paragraph {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.aside-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.aside-paragraph {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+#copyright, #return-up {
+    display: inline-block;
+    font-family: Cambria;
+    text-align: left;
+    margin: 20px;
+}
+
+#copyright {
+    font-size: 16px;
+    color: #f0eada;
+    float: left;
+}
+
+#return-up {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #f0eada;
+    color: #130361;
+    float: right;
+    /* margin: 0 30px 0 0; */
+}
+
+footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
